@@ -1,0 +1,29 @@
+/*apuntes en css*/
+
+#id {                           /*Se usa el # para las ID*/
+    color: cyan;                    /*Se usa para dar color*/
+    width: 10px;                      /*ancho*/
+    height: 10px;                     /*alto*/
+    background-color: none ;          /*color del fondo*/
+    background-image: none;           /*Imagen en el fondo*/
+    padding: 10px ;                   /*Separacion interior*/
+    border: none;                     /*borde*/
+    margin: none;                     /*Margen exterior*/
+    text-align: none;                 /*Alinear texto*/
+    font-family: none;                /*cambiar tipografia*/
+    font-size: none;                  /*Cambiar tamaño de la letra*/
+    font-weight: none;                /*Espesor de las letras*/
+    background-repeat: none;
+}
+
+h1{                                    /*para modificar algun tipo de etiqueta en particular escribimos la etiqueta*/
+    color: red;
+}
+
+.clase {                                /* Usamos el . para indicar una clase*/
+    color: none;
+}
+
+*{                                      /* Usamos * para modificar TODO */
+    color: none;
+}
